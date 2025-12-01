@@ -1,0 +1,48 @@
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Database files
+registrations.db
+*.db
+*.db-journal
+
+# Screenshots and debug files
+*.png
+!logo.png
+
+# User uploaded photos
+photos/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+inspect-*.js
+test-*.js
+debug-*.js
+check-*.js
+manual-*.js
+view-*.js
+click-*.js
+list-*.js
+trigger-*.js
+test-screenshots/
+
+# CSV exports
+*.csv

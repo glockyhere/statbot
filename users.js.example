@@ -1,0 +1,29 @@
+// Authorized users database with branch assignments
+// Copy this file to users.js and add your actual Telegram IDs
+// Structure: { telegramId: { name, branch, role } }
+
+module.exports = {
+  // Admin users (can manage the bot and users)
+  // Replace with actual admin Telegram IDs
+  admins: [
+    123456789  // Example: Replace with actual admin Telegram ID
+  ],
+
+  // Authorized users with their branch assignments
+  users: {
+    // Example format - replace with actual user data:
+    // 987654321: { name: 'Ali Karimov', branch: '2bekat' },
+    // 555555555: { name: 'Sardor Ahmedov', branch: 'texnopark' },
+    // 777777777: { name: 'Bobur Tursunov', branch: '5bekat' },
+  }
+};
+
+// Available branches:
+// - '2bekat' - 2-Bekat branch
+// - 'texnopark' - TEXNOPARK branch
+// - '5bekat' - 5-Bekat branch
+
+// How to get Telegram ID:
+// 1. Start the bot
+// 2. User sends /start
+// 3. Bot will show their Telegram ID in the unauthorized message
