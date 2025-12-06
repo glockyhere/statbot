@@ -35,12 +35,12 @@ npm install
 `.env` faylini oching va quyidagi ma'lumotlarni to'ldiring:
 
 ```env
-CRM_LOGIN=+998887050998
-CRM_PASSWORD=7050998
+CRM_LOGIN=phone
+CRM_PASSWORD=password
 CRM_URL=https://bestune.kahero.uz/login
 
 # Telegram Bot Token (BotFatherdan olgan tokeningiz)
-TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
+TELEGRAM_BOT_TOKEN=token
 ```
 
 ### 4. Foydalanuvchilarni sozlash
